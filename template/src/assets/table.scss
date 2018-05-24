@@ -1,0 +1,71 @@
+/* element table的样式修改 */
+.el-table{
+  border: none !important;
+}
+.el-table tr{
+  height: 30px!important;
+}
+.el-table td{
+  padding: 0px!important;
+}
+.el-table::after,.el-table::before{
+  background: none !important;
+}
+.el-table--fit{
+  border-right: 0 !important;
+  border-bottom: 0 !important;
+}
+.el-table__header .cell{
+  font-size: 12px !important;
+  font-family: "宋体"!important;
+  font-weight: normal !important;
+  color: #19233c!important;
+  background:#f5f6fa;
+}
+.el-table__header th{
+  height: 35px!important;
+  padding: 0px!important;
+  background:#f5f6fa;
+}
+.el-table__header .el-table td, .el-table th.is-leaf {
+  border-bottom: none;
+}
+tr.el-table__row:hover td {
+  //background:  red !important;
+}
+tr.el-table__row td {
+  //background:  red !important;
+  color: #19233c!important;
+}
+.el-table .cell{
+  text-align: center;
+  padding: 0 5px !important;
+}
+
+.el-table td,  .el-table th.is-leaf {
+  border-bottom: 1px solid #edeef0 !important;
+}
+.eltable-row{
+  font-family: 宋体;
+  font-size: 12px;
+}
+.el-table__empty-text{
+  font-size: 12px!important;
+}
+.el-table td i{
+  font-size: 11px;
+}
+.el-table td i.icon-shanchu{
+  font-size: 12px;
+}
+
+/* element 分页的样式修改 */
+.el-pagination__total{
+  font-size: 12px!important;
+  font-family: 宋体!important;
+}
+.el-pager li.number{
+  font-size: 12px!important;
+  font-family: 宋体!important;
+  font-weight: normal!important;
+}
