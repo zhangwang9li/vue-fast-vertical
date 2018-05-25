@@ -29,7 +29,6 @@ Vue.use(VueRouter)
 Vue.use(Vuex)
 Vue.prototype.$api = api
 
-
 const router = new VueRouter({
   routes
 })
