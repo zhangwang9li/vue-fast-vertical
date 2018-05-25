@@ -48,7 +48,7 @@
         </div>
       </HorizontalLayout>
     </div>
-    <div class="layout-div" style="padding: 12px;width: calc(100% - 24px);height: calc(100% - 24px);">
+    <div class="layout-div">
       <keep-alive>
         <router-view/>
       </keep-alive>
