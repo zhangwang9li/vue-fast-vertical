@@ -18,16 +18,6 @@ export const LoginUsers = [
         zj: '/HomePage'
       },
       {
-        mkid: '0101',
-        fmkid: '',
-        mkname: '看板',
-        name: '看板',
-        url: '/home-page',
-        isMenu: false,
-        img: 'el-icon-question',
-        zj: '/HomePage'
-      },
-      {
         mkid: '02',
         fmkid: '',
         mkname: '基础模块',
