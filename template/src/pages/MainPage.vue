@@ -24,7 +24,7 @@
                 </el-submenu>
               </template>
               <template v-else-if="item.children && item.children.length === 1"> <!-- 此情况下注意child的名字和item显示那个问题 -->
-                <el-menu-item :key="index +'-1'" :index="item.children[0].url">\{{item.children.name}}</el-menu-item>
+                <el-menu-item :key="index +'-1'" :index="item.children[0].url">\{{item.children[0].name}}</el-menu-item>
               </template>
               <template v-else>
                 <el-menu-item :key="index +'-0'"  :index="item.url">\{{item.name}}</el-menu-item>
@@ -34,7 +34,7 @@
         </div>
         <div slot="right" class="layout-div">
           <div class="logo">
-            <span @click="goto('/home-page')">主页</span>
+            <span @click="goto('/home')">主页</span>
             <span @click="addTheme">修改主题</span>
             <el-dropdown @command="handleCommand">
               <span style="color: #fff">常用API</span>
@@ -48,7 +48,7 @@
         </div>
       </HorizontalLayout>
     </div>
-    <div class="layout-div">
+    <div class="layout-div" style="padding: 12px;width: calc(100% - 24px);height: calc(100% - 24px);">
       <keep-alive>
         <router-view/>
       </keep-alive>
