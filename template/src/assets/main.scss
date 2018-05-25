@@ -14,7 +14,48 @@ input, textarea, .el-message-box__message{
 
 .main-header{
   background-color: #2a303e;
+  //.header-el-menu{
+  //  background-color: #2a303e;
+  //  .el-menu-item{
+  //    color: #fff!important;
+  //    &:hover{
+  //      background-color: #2a303e!important;
+  //    }
+  //  }
+  //  .el-submenu{
+  //    .el-submenu__title{
+  //      color: #fff!important;
+  //      &:hover{
+  //        background-color: #2a303e!important;
+  //      }
+  //    }
+  //  }
+  //  .el-menu-item.is-active{
+  //    background-color: rgb(67, 74, 80)!important;
+  //  }
+  //}
+  .el-menu-item, .el-submenu, .el-menu--horizontal .el-submenu .el-submenu__title{
+    line-height: 48px!important;
+    height: 48px!important;
+  }
 }
+
+.el-menu.el-menu--popup {
+  margin-top: 2px!important;
+  padding: 4px!important;
+  border-radius: 4px!important;
+  li{
+    line-height: 30px!important;
+    height: 30px!important;
+    font-size: 12px!important;
+  }
+  .el-submenu__title{
+    line-height: 30px!important;
+    height: 30px!important;
+    font-size: 12px!important;
+  }
+}
+
 .icon{
   font-size: 10px;
   cursor: pointer;
@@ -169,7 +210,7 @@ input, textarea, .el-message-box__message{
   }
 }
 .el-button.dialog-button.bao_cun{
- @extend .bao_cun
+  @extend .bao_cun
 }
 .el-button.el-button--text{
   font-family: 宋体!important;
